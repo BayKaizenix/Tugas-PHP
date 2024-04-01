@@ -1,0 +1,108 @@
+body {
+    font-family: Cambria;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+    color: tomato;
+    text-shadow: 1px 1px 4px blue;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* CSS header */
+img#nime {
+    width: 100%;
+}
+
+/* CSS navigasi */
+table#nav {
+    text-align: center;
+    width: 25%;
+}
+
+td#nav:hover {
+    background-color: pink;
+}
+
+/* CSS home */
+body.home:hover {
+    background-color: rgb(63, 50, 50);
+    color: white;
+    text-shadow: 1px 1px 4px rgb(233, 53, 83);
+}
+
+img.kimdokja {
+    width: 205px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+img.kimdokja:hover {
+    border-radius: 10px;
+}
+
+/* CSS mystudy */
+table {
+    border-radius: 5px;
+}
+
+table:hover {
+    border-color: white;
+}
+
+th:hover {
+    background-color: rgb(233, 66, 94);
+    color: black;
+}
+
+body.study:hover {
+    background-color: rgb(63, 50, 50);
+    color: white;
+}
+
+td#study {
+    text-align: center;
+}
+
+/* CSS galery */
+body#gallery:hover {
+    color: white;
+    background-color: rgb(63, 50, 50);
+}
+img#gallery {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    width: 160px;
+}
+
+img#gallery:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+/* CSS sosmet & materi */
+li {
+    color: red;
+}
+
+li:hover {
+    background-color: pink;
+    text-decoration: solid;
+}
+
+/* CSS footer */
+footer {
+    background-color: #d1bcb7;
+    padding: auto;
+}
+
+footer:hover {
+    background-color: rgb(63, 50, 50);
+    color: white;
+}
